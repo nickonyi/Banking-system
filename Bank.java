@@ -9,14 +9,17 @@ String password;
 int id;
 
     public static void main(String[] args){
-       Bank stanbic = new Bank();
-       if(stanbic.login()){
-          //Customer user1 = new Customer("Brian", "Shikwekwe", "Savings Account", "savingsaccount01");
-          Customer user2 = new Customer("Donovan","mitchel","checkings account","checkingsacc1");
-          user2.registerClient();
-       } else {
-        System.out.println("not found");
-       }
+     //  Bank stanbic = new Bank();
+     //  if(stanbic.login()){
+     //     //Customer user1 = new Customer("Brian", "Shikwekwe", "Savings Account", "savingsaccount01");
+     //     Customer user2 = new Customer("Donovan","mitchel","checkings account","checkingsacc1");
+     //     user2.registerClient();
+     //  } else {
+     //   System.out.println("not found");
+     //  }
+     Account april = new Account("Micael", "acc02");
+     april.showDisplay();
+     
     }
 
     void register(){
